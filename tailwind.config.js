@@ -8,6 +8,7 @@ module.exports = {
         poppinsMedium: ['Poppins Medium'],
         poppinsBold: ['Poppins Bold'],
         poppinsBlack: ['Poppins Black'],
+        poppingsSemibold:['Poppins Semibold'],
       },
 
       colors: {

@@ -11,8 +11,8 @@ export const Button: React.FC<Props> = ({ label, width, onClick }: any) => {
     <button
       onClick={onClick}
       className={`${
-        width ? width : "w-[172px] h-[62px] rounded-tl-lg rounded-br-lg"
-      } bg-retroPink text-white font-poppinsBold`}
+        width ? width : "lg:w-[172px] w-[150px] lg:h-[62px] h-[56px] "
+      } bg-retroPink text-white font-poppinsBold lg:text-2xl text-xl rounded-tl-lg rounded-tr-sm rounded-bl-sm rounded-br-lg hover:shadow-lg`}
     >
       {label}
     </button>
