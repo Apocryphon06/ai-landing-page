@@ -15,7 +15,7 @@ function Home() {
 
       {/* Hero Section */}
 
-      <div className="flex lg:flex-row flex-col justify-center items-center gap-[150px] p-5 h-[620px]">
+      <div className="flex lg:flex-row flex-col justify-center items-center gap-[150px] p-5 lg:h-[620px]">
         <p className="text-white font-poppinsBold text-4xl tracking-widest">
           Hexa
         </p>
@@ -38,7 +38,7 @@ function Home() {
             <p className=" font-poppinsBold lg:text-5xl text-3xl lg:w-[638px] h-[142px]">
               Sometimes, just saying is not enough!
             </p>
-            <p className="font-poppinsRegular lg:text-4xl text-3xl lg:w-[605px] h-[188px] leading-relaxed">
+            <p className="font-poppinsRegular lg:text-4xl text-3xl lg:w-[605px] lg:h-[188px] leading-relaxed lg:py-0">
               Keeping accessbility of modern technologies in mind, we
               intuitively crafted your personal assistant.
             </p>
@@ -72,7 +72,7 @@ function Home() {
           <p className="text-white font-poppinsBold lg:text-4xl text-3xl">
             Meet your buddy now!
           </p>
-          <Button width="w-[298px] h-[90px]" label="Download" />
+          <Button width="lg:w-[298px] w-[200px] h-[70px] lg:h-[90px]" label="Download" />
         </div>
 
         <img src={plan} alt={plan} />
